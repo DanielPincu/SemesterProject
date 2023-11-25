@@ -11980,6 +11980,10 @@ textarea.form-control-lg {
   background-color: #ff6600;
 }
 
+.orange-background:hover {
+  background-color: #d26319;
+}
+
 .orange-text {
   color: #ff6600;
 }
