@@ -1,0 +1,25 @@
+
+
+
+.orange-background {
+    background-color: #ff6600;
+}
+
+.orange-text{
+    color: #ff6600;
+}
+
+.bg {
+    /* The image used */
+    background-image: url(img/chairs.jpeg);
+  
+    /* Full height */
+    height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+@import "../node_modules/bootstrap/scss/bootstrap";
