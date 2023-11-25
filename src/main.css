@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap");
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -11976,6 +11978,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
 .orange-background {
   background-color: #ff6600;
 }
@@ -11990,6 +11996,10 @@ textarea.form-control-lg {
 
 .navy-background {
   background-color: #13367B;
+}
+
+.navy-background:hover {
+  background-color: #214da5;
 }
 
 .bg {

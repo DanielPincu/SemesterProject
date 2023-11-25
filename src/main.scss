@@ -1,8 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
 @import "variables";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
+.lato {
+    font-family: 'Lato', sans-serif;
+}
 
 
 
@@ -20,6 +24,10 @@
 
 .navy-background {
     background-color: #13367B;
+}
+
+.navy-background:hover {
+    background-color: #214da5;
 }
 
 .bg {
