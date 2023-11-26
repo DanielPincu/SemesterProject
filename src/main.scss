@@ -8,6 +8,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+h6 {
+    font-size: 90px;
+}
+
 
 
 .orange-background {
@@ -22,6 +26,15 @@
     color: #ff6600;
 }
 
+.pink-text {
+    color: rgb(249, 41, 159);
+}
+
+.pink-bg {
+    background-color: rgb(249, 41, 159);
+}
+
+
 .navy-background {
     background-color: #13367B;
 }
@@ -32,13 +45,10 @@
 
 .bg {
     /* The image used */
-    background-image: url(img/chairs.jpeg);
-  
-    /* Full height */
+    width: 100%;
+    background-image: url(img/nanna-ditzel.jpg);
+    width: 100vw;
     height: 100vh;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
