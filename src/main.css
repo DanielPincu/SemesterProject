@@ -11978,25 +11978,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.carousel-control-prev,
-.carousel-control-next {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 15%;
-  padding: 0;
-  color: #070000;
-  text-align: center;
-  background: none;
-  border: 0;
-  opacity: 1;
-  transition: opacity 0.15s ease;
-}
-
 .lato {
   font-family: "Lato", sans-serif;
 }
