@@ -12055,6 +12055,23 @@ textarea.form-control-lg {
     display: inline-flex;
   }
 }
+.custom-email-input {
+  border: 1px solid #ced4da; /* Add a border for a cleaner look */
+  border-radius: 0; /* Square edges */
+  height: 40px; /* Adjust the height as needed */
+  width: 300px; /* Adjust the width as needed */
+  padding: 0.375rem 0.75rem; /* Adjust padding for better appearance */
+}
+
+.custom-button {
+  border: 1px solid #ced4da; /* Add a border for consistency */
+  border-radius: 0; /* Square edges */
+  height: 40px; /* Match the height of the email input */
+  background-color: #dc3545; /* Use the same background color as the email input */
+  color: #fff; /* Text color */
+  padding: 0.375rem 0.75rem; /* Adjust padding for better appearance */
+}
+
 .lato {
   font-family: "Lato", sans-serif;
 }
