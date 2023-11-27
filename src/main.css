@@ -11986,8 +11986,12 @@ h6, .h6 {
   font-size: 90px;
 }
 
-.margintop {
-  margin-top: 200px;
+.margin200 {
+  padding: 300px;
+}
+
+.marginstart300 {
+  margin-left: 300px;
 }
 
 .orange-background {
