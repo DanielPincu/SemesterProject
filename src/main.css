@@ -11978,6 +11978,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+p {
+  font-family: "Lato", sans-serif;
+}
+
 .carousel-control-next-icon {
   background-image: url(img/left-arrow.png);
   transform: rotate(180deg);
