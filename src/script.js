@@ -10,3 +10,9 @@ function showOrHideDiv() {
         btnText.innerHTML = "Read more";
     }
 }
+
+// Hide the div initially when the page loads
+document.addEventListener("DOMContentLoaded", function() {
+    var x = document.getElementById("showOrHide");
+    x.style.display = "none";
+});
