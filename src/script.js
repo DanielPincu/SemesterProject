@@ -96,3 +96,31 @@ document.addEventListener("DOMContentLoaded", function() {
     var x = document.getElementById("showOrHide4");
     x.style.display = "none";
 });
+
+
+
+
+
+
+
+
+
+
+function showOrHideDiv5() {
+    var x = document.getElementById("showOrHide5");
+    var btnText = document.getElementById("myBtn5");
+    
+    if (x.style.display === "none" || x.style.display === "") {
+        x.style.display = "block";
+        btnText.innerHTML = "Read less";
+    } else {
+        x.style.display = "none";
+        btnText.innerHTML = "Read more";
+    }
+}
+
+// Hide the div initially when the page loads
+document.addEventListener("DOMContentLoaded", function() {
+    var x = document.getElementById("showOrHide5");
+    x.style.display = "none";
+});
