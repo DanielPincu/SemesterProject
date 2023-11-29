@@ -160,3 +160,33 @@ document.addEventListener("DOMContentLoaded", function() {
     var x = document.getElementById("showOrHide6");
     x.style.display = "none";
 });
+
+
+
+
+
+
+
+
+
+
+
+
+function showOrHideDiv7() {
+    var x = document.getElementById("showOrHide7");
+    var btnText = document.getElementById("myBtn7");
+    
+    if (x.style.display === "none" || x.style.display === "") {
+        x.style.display = "block";
+        btnText.innerHTML = "Read less";
+    } else {
+        x.style.display = "none";
+        btnText.innerHTML = "Read more";
+    }
+}
+
+// Hide the div initially when the page loads
+document.addEventListener("DOMContentLoaded", function() {
+    var x = document.getElementById("showOrHide7");
+    x.style.display = "none";
+});
