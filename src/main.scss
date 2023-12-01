@@ -8,7 +8,7 @@ p {
     font-size: large;
 }
 
-.carousel-control-next-icon, {
+.carousel-control-next-icon {
     background-image: url(img/left-arrow.png);
     filter: invert(100%);
     rotate: 180deg; 
@@ -25,7 +25,7 @@ p {
 
 
 
-.carousel-control-prev, {
+.carousel-control-prev {
     position: absolute;
     left: 18em;
     top: 24em;
