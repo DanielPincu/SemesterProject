@@ -10,11 +10,15 @@ p {
 
 .carousel-control-next-icon {
     background-image: url(img/left-arrow.png);
-    transform: rotate(180deg);
+    filter: invert(100%);
+    rotate: 180deg; 
+    
 }
 
 .carousel-control-prev-icon {
     background-image: url(img/left-arrow.png);
+    filter: invert(100%);
+    
 
 }
 
@@ -69,10 +73,12 @@ p {
         display: inline-flex;
         
         
+        
       }
 }
 
 @include media-breakpoint-up(lg) {
+    
     .carousel-control-prev {
         position: absolute;
         left: 36em;
@@ -92,6 +98,7 @@ p {
         transition: opacity 0.15s ease;
         font-size: large;
         display: inline-flex;
+        
   }
 }
  
