@@ -111,14 +111,7 @@ p {
     padding: 0.375rem 0.75rem; /* Adjust padding for better appearance */
   }
 
-  .custom-button {
-    border: 1px solid #ced4da; /* Add a border for consistency */
-    border-radius: 0; /* Square edges */
-    height: 40px; /* Match the height of the email input */
-    background-color: #dc3545; /* Use the same background color as the email input */
-    color: #fff; /* Text color */
-    padding: 0.375rem 0.75rem; /* Adjust padding for better appearance */
-  }
+  
 
 //   .read-more-button {
 //     border: 1px solid #010102; /* Add a border for consistency */
@@ -196,11 +189,20 @@ p {
   }
 
 
+  .custom-button {
+    border: 1px solid #ced4da; 
+    border-radius: 0; 
+    height: 40px; 
+    background-color: #dc3545; 
+    color: #fff; 
+    padding: 0.375rem 0.75rem; 
+  }
+
   .custom-button-2 {
-    border: 1px solid #ced4da; /* Add a border for consistency */
-    border-radius: 0; /* Square edges */
-    height: 40px; /* Match the height of the email input */
-    background-color: #ffffff; /* Use the same background color as the email input */
-    color: #000000; /* Text color */
-    padding: 0.375rem 0.75rem; /* Adjust padding for better appearance */
+    border: 1px solid #ced4da; 
+    border-radius: 0; 
+    height: 40px; 
+    background-color: #ffffff; 
+    color: #000000; 
+    padding: 0.375rem 0.75rem; 
   }
