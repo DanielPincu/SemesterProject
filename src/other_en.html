@@ -94,7 +94,7 @@
           <li class="dropdown-item"><a class="dropdown-item" href="main_de.html"><img src="img/germany.png" alt="" width="24px" height="24px">Deutsch</a></li>
         </ul></li>
   
-      <li class="mx-3 dropdown-item fs-4 mt-3 "><a class="btn text-white bg-danger" href="ticket_single.html">Buy tickets!</a></li>
+      <li class="mx-3 dropdown-item fs-4 mt-3 "><a class="btn custom-button" href="ticket_single.html">Buy tickets!</a></li>
       </ul>
   
     
@@ -103,7 +103,8 @@
 <!-- NAV ENDS HERE -->
 
 <!-- Other exhibitions Maria Torp STARTS HERE -->
-<div class="container my-5 padding-top padding-bottom border-bottom border-3 border-black">
+<div class="container-fluid gray padding-top padding-bottom border-bottom border-3 border-black">
+  <div class="container">
     <div class="row">
 
         <div class="col-12 col-lg-6">
@@ -112,11 +113,11 @@
             <p class="fw-bolder">SHAPING A PATTERN</p>
             <p>18.01.2024 - 24.11.2024</p>
             <p>In January 2024, Trapholt presents the solo exhibition Shaping a Pattern, where the Danish artist Maria Torp explores the potential of portraiture as an activist and enlightening format. The exhibition will be a sensual and enlightening journey through five years of work, featuring 12 portraits of influential individuals, interviews, films, and Torp’s extensive research material. The exhibition will be held from January 18th to November 24th, 2024.</p>
-            <button class="btn btn-primary mb-3 d-none d-md-block" onclick="showOrHideDiv6()" id="myBtn6">Read more</button>
+            <button class="btn custom-button-2 mb-3 d-none d-md-block" onclick="showOrHideDiv6()" id="myBtn6">Read more</button>
         </div>
 
         <div class="col-12 col-lg-6"><img src="img/mariatorp.webp" width="100%" alt="">
-            <button class="btn btn-primary my-3 d-block d-md-none" onclick="showOrHideDiv6()" id="myBtn6">Read more</button>
+            <button class="btn custom-button-2 my-3 d-block d-md-none" onclick="showOrHideDiv6()" id="myBtn6">Read more</button>
          </div>
         
     </div>
@@ -142,11 +143,12 @@
 
 
 
-            <button class="btn btn-primary my-5" onclick="showOrHideDiv6()" id="myBtn6">Read less</button>
+            <button class="btn custom-button-2 my-5" onclick="showOrHideDiv6()" id="myBtn6">Read less</button>
             
         </div>
     
 
+</div>
 </div>
 
 <!-- Other exhibitions Maria Torp ENDS HERE  -->
@@ -157,7 +159,7 @@
 <!-- Other exhibitions Malene Landgreen STARTS HERE -->
 
 
-<div class="container padding-bottom padding-top my-5">
+<div class="container border-bottom border-3 border-black padding-bottom padding-top my-5">
     <div class="row">
         <div class="col-12 col-md-6"><img src="img/malene.jpeg" width="100%" alt=""></div>
 
@@ -168,7 +170,7 @@
             <p>18.01.2024 - 24.11.2024</p>
             <p>Join us on a journey through four sensuous universes in the exhibition Flow of Change featuring the acclaimed Danish artist Malene Landgreen (b. 1962). Take the opportunity to step inside a vast, immersive painting when Trapholt invites you on a voyage through darkness, light and colour this January. Through a series of new works and installations, Landgreen challenges the physical limits of classic painting and its traditionally flat surface.</p>
         </div>
-        <p class="border-bottom border-3 border-black mt-5"></p>
+      
         <div class="d-flex justify-content-center pb-5">
             <button class="btn btn-info-subtle dropdown-toggle border-0" onclick="showOrHideDiv7()" id="myBtn7">Show more</button>
         </div>
@@ -180,7 +182,7 @@
 
     <!--  -->
     
-        <div class="border-bottom border-3 border-black" id="showOrHide7" >  <!--  --> <!-- div controller -->
+        <div id="showOrHide7" >  <!--  --> <!-- div controller -->
             
     
             <div class="row justify-content-center flex-md-nowrap ">
@@ -317,7 +319,7 @@
         <div class="col-12 col-lg-6">
             <h1>CREATE YOUR OWN EXHIBITION</h1>
             <p>With YOUR exhibition, Trapholt invites all visitors to put together their own exhibitions featuring main works from Trapholt’s collection of art, design and crafts. You decide what your exhibition should contain and how it should be presented – perhaps based on a particular colour, subject matter, period, artist or something else entirely.</p>
-            <a href="contact.html"><button class="btn btn-primary mb-3 d-none d-md-block">Contact us</button></a>
+            <a class="dropdown-item" href="contact.html"><button class="btn custom-button-2 mb-3 d-none d-md-block">Contact us</button></a>
         </div>
 
         <div class="col-12 col-lg-6"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/t2P_e0iGd5Y" title="DIN udstilling Trapholt" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -331,12 +333,12 @@
 <!-- Create your own exhibition ENDS HERE -->
 
  <!-- FOOTER STARTS HERE -->
-<div class="container-fluid justify-content-center align-items-center border-top border-3 border-black bg-dark-subtle   p-5">
+ <div class="container-fluid justify-content-center align-items-center border-top border-3 border-black gray p-5">
 
   <div class="row border-bottom border-1 border-black padding-bottom padding-top flex-column flex-md-row">
- 
+    
       <div class="col">
-       <img src="img/love.png" alt="" height="45px">
+        <img src="img/love.png" width="150px">
   
 
         <h5 class="mt-5">ADDRESS:</h5>
@@ -360,7 +362,7 @@
       <div class="col">
       <div class="row flex-column flex-md-row">
 
-          <div class="col text-end mb-5 mb-md-0">
+          <div class="col text-start text-md-end mb-5 mb-md-0">
           <p>OPENING HOURS</p>
           <br>
           <h6>Tuesday 10 - 17</h6>
@@ -375,7 +377,7 @@
 
           </div>
 
-          <div class="col text-end">
+          <div class="col text-start text-md-end">
           <a href="" class="text-black dropdown-item"><p>ABOUT US</p></a>
           <a href="" class="text-black dropdown-item"><p>CONTACT</p></a>
           <a href="" class="text-black dropdown-item"><p>CURRENT  EXHIBITIONS</p></a>
