@@ -12173,6 +12173,20 @@ p {
   background-color: #ececec;
 }
 
+.custom-button-3 {
+  border: none;
+  background: none;
+  outline: none;
+  color: #e23176;
+}
+
+.custom-button-3 {
+  border: none;
+  background: none;
+  outline: none;
+  color: #e23176;
+}
+
 .pichover {
   border: 10px solid #000000;
 }/*# sourceMappingURL=main.css.map */
