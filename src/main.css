@@ -11978,6 +11978,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-color: #fefefe;
+}
+
 p {
   font-family: "Lato", sans-serif;
   font-size: large;
@@ -12167,4 +12171,8 @@ p {
 
 .gray {
   background-color: #ececec;
+}
+
+.pichover {
+  border: 10px solid #000000;
 }/*# sourceMappingURL=main.css.map */
