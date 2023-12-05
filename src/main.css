@@ -11987,85 +11987,6 @@ p {
   font-size: large;
 }
 
-.carousel-control-next-icon {
-  background-image: url(img/left-arrow.png);
-  filter: invert(100%);
-  rotate: 180deg;
-}
-
-.carousel-control-prev-icon {
-  background-image: url(img/left-arrow.png);
-  filter: invert(100%);
-}
-
-.carousel-control-prev {
-  position: absolute;
-  left: 18em;
-  top: 24em;
-  bottom: 0;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 15%;
-  padding: 0;
-  color: #e71212;
-  text-align: center;
-  background: none;
-  border: 0;
-  opacity: 1;
-  transition: opacity 0.15s ease;
-  font-size: large;
-  display: none;
-}
-
-.carousel-control-next {
-  position: absolute;
-  top: 24em;
-  bottom: 0;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 15%;
-  padding: 0;
-  color: #aa1313;
-  text-align: center;
-  background: none;
-  border: 0;
-  opacity: 1;
-  transition: opacity 0.15s ease;
-  font-size: large;
-  display: none;
-}
-
-@media (min-width: 992px) {
-  .carousel-control-next {
-    display: inline-flex;
-  }
-}
-@media (min-width: 992px) {
-  .carousel-control-prev {
-    position: absolute;
-    left: 36em;
-    top: 24em;
-    bottom: 0;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 15%;
-    padding: 0;
-    color: #e71212;
-    text-align: center;
-    background: none;
-    border: 0;
-    opacity: 1;
-    transition: opacity 0.15s ease;
-    font-size: large;
-    display: inline-flex;
-  }
-}
 .custom-email-input {
   border: 1px solid #ced4da; /* Add a border for a cleaner look */
   border-radius: 0; /* Square edges */
@@ -12185,8 +12106,4 @@ p {
   background: none;
   outline: none;
   color: #e23176;
-}
-
-.pichover {
-  border: 10px solid #000000;
 }/*# sourceMappingURL=main.css.map */
