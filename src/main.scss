@@ -102,7 +102,7 @@ p {
 
 
   .custom-button {
-    border: 1px solid #fff; 
+    border: 1px solid #ced4da; 
     border-radius: 0; 
     height: 40px; 
     background-color: #e23176; 
@@ -123,7 +123,7 @@ p {
     border: 1px solid #ced4da; 
     border-radius: 0; 
     height: 40px; 
-    background-color: #ececec; 
+    background-color: #ffffff; 
     color: #000000; 
     padding: 0.5rem 2rem; 
   }
@@ -160,13 +160,11 @@ p {
     
  }
 
-
- .custom-border {
-     border: 7px solid #000000;
-     transition: 0.2s;
+<<<<<<< HEAD
+ .custom-16px {
+     font-size: 16px;
  }
+=======
+>>>>>>> parent of 7d6e9b8 (Border added and hover effect)
 
- .custom-border:hover {
-    border: 7px solid #e23176;
-}
   
