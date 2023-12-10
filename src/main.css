@@ -12137,4 +12137,15 @@ p {
 
 .custom-border:hover {
   border: 7px solid #e23176;
+}
+
+.custom-border2 {
+  border: 7px solid #000000;
+  transition: 0.2s;
+}
+
+@media screen and (max-width: 768px) {
+  .custom-border2 {
+    border: none;
+  }
 }/*# sourceMappingURL=main.css.map */
