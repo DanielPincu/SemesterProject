@@ -4,10 +4,10 @@ function showOrHideDiv() {
     
     if (x.style.display === "none" || x.style.display === "") {
         x.style.display = "block";
-        btnText.innerHTML = "Read less";
+        btnText.innerHTML = "READ LESS";
     } else {
         x.style.display = "none";
-        btnText.innerHTML = "Read more";
+        btnText.innerHTML = "READ MORE";
     }
 }
 
@@ -31,10 +31,10 @@ function showOrHideDiv2() {
     
     if (x.style.display === "none" || x.style.display === "") {
         x.style.display = "block";
-        btnText.innerHTML = "Read less";
+        btnText.innerHTML = "READ LESS";
     } else {
         x.style.display = "none";
-        btnText.innerHTML = "Read more";
+        btnText.innerHTML = "READ MORE";
     }
 }
 
@@ -54,10 +54,10 @@ function showOrHideDiv3() {
     
     if (x.style.display === "none" || x.style.display === "") {
         x.style.display = "block";
-        btnText.innerHTML = "Read less";
+        btnText.innerHTML = "READ LESS";
     } else {
         x.style.display = "none";
-        btnText.innerHTML = "Read more";
+        btnText.innerHTML = "READ MORE";
     }
 }
 
@@ -84,10 +84,10 @@ function showOrHideDiv4() {
     
     if (x.style.display === "none" || x.style.display === "") {
         x.style.display = "block";
-        btnText.innerHTML = "Read less";
+        btnText.innerHTML = "READ LESS";
     } else {
         x.style.display = "none";
-        btnText.innerHTML = "Read more";
+        btnText.innerHTML = "READ MORE";
     }
 }
 
@@ -112,10 +112,10 @@ function showOrHideDiv5() {
     
     if (x.style.display === "none" || x.style.display === "") {
         x.style.display = "block";
-        btnText.innerHTML = "Read less";
+        btnText.innerHTML = "READ LESS";
     } else {
         x.style.display = "none";
-        btnText.innerHTML = "Read more";
+        btnText.innerHTML = "READ MORE";
     }
 }
 
@@ -132,10 +132,10 @@ function showOrHideDiv6() {
     
     if (x.style.display === "none" || x.style.display === "") {
         x.style.display = "block";
-        btnText.innerHTML = "Read less";
+        btnText.innerHTML = "READ LESS";
     } else {
         x.style.display = "none";
-        btnText.innerHTML = "Read more";
+        btnText.innerHTML = "READ MORE";
     }
 }
 
@@ -167,10 +167,10 @@ function showOrHideDiv6() {
     
     if (x.style.display === "none" || x.style.display === "") {
         x.style.display = "block";
-        btnText.innerHTML = "Read less";
+        btnText.innerHTML = "READ LESS";
     } else {
         x.style.display = "none";
-        btnText.innerHTML = "Read more";
+        btnText.innerHTML = "READ MORE";
     }
 }
 
@@ -197,10 +197,10 @@ function showOrHideDiv7() {
     
     if (x.style.display === "none" || x.style.display === "") {
         x.style.display = "block";
-        btnText.innerHTML = "Read less";
+        btnText.innerHTML = "READ LESS";
     } else {
         x.style.display = "none";
-        btnText.innerHTML = "Read more";
+        btnText.innerHTML = "READ MORE";
     }
 }
 
