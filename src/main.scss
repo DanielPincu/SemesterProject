@@ -194,22 +194,33 @@ p {
      font-size: 16px;
  }
  .custom-border {
-     border: 7px solid #000000;
+     border: 6px solid #000000;
      transition: 0.2s;
  }
 
  .custom-border:hover {
-    border: 7px solid #e23176;
+    border: 6px solid #e23176;
 }
   
 .custom-border2 {
-    border: 7px solid #000000;
+    border: 6px solid #000000;
     transition: 0.2s;
 }
 
 @media screen and (max-width: 768px) {
     .custom-border2 {
         border: none;
+    }
+    
+}
+
+.strange {
+    display: block;
+}
+
+@media screen and (max-width: 1700px) {
+    .pic {
+        display: none;
     }
     
 }
