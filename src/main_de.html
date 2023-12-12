@@ -5,122 +5,454 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TRAPHOLT</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-black bg-opacity-50 py-1">
-    <div class="container-fluid">
-      <a class="navbar-brand fs-1" href="#"><img src="img/love_white.png" height="100" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown fs-4">
-            <a class="nav-link text-white px-4 dropdown-item lato" aria-current="page" data-bs-toggle="dropdown" data-bs-auto-close="outside"  href="#">Ausstellungen</a>
-                <ul class="dropdown-menu bg-warning">
-                   
-                    <li class="dropdown-item dropend"><a class="dropdown-item " data-bs-toggle="dropdown" data-bs-auto-close="outside" href="#">Dauerhaft</a>
-                    
-                     <ul class="dropdown-menu bg-warning">
-                      <li class="dropdown-item"><a data-bs-auto-close="outside" class="dropdown-item" href="nannaditzel_EN.html">Nanna Ditzel</a>
-                       
-                      </li>
-                      <li class="dropdown-item"><a class="dropdown-item" href="">ARNE JACOBSEN’S SUMMERHOUSE</a></li>
-                      <li class="dropdown-item"><a class="dropdown-item" href="">THE RICHARD MORTENSEN ROOM</a></li>
-                      <li class="dropdown-item"><a class="dropdown-item" href="">THE SCULPTURE PARK</a></li>
-                    </ul> 
 
-                    </li>
-                    <li class="dropdown-item dropend"> <a class="dropdown-item" data-bs-toggle="dropdown" data-bs-auto-close="outside">Vorübergehend</a>
-                    
-                    <ul class="dropdown-menu bg-warning">
-                      <li class="dropdown-item"><a class="dropdown-item" href="">Vergangene ausstellungen</a></li>
-                      <li class="dropdown-item"><a class="dropdown-item" href="">Aktuelle ausstellungen</a></li>
-                      <li class="dropdown-item"><a class="dropdown-item" href="">Zukünftige Ausstellungen</a></li>
-                    </ul>
-                    
-                    </li>
-                    
-                    
-                </ul>
+  <!--  -->
+<!-- NAV STARTS HERE-->
+<nav class="navbar navbar-expand-lg border-bottom border-3 border-black pt-4 px-5 sticky-lg-top bg-white">
+  <div class="container-fluid"> 
+    
+    <a class="navbar-brand fs-4 ms-5" href="main_de.html"><img src="img/love.png" height="50px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown custom-16px pe-3">
+          <a class="nav-link text-black dropdown-item" aria-current="page" data-bs-toggle="dropdown" data-bs-auto-close="outside" href="#">AUSSTELLUNGEN</a>
+              <ul class="dropdown-menu">
+                 
+                  <li class="dropdown-item dropend custom-16px">
+                    <a class="dropdown-item" href="current_de.html">AKTUELL</a>
+                  </li>
+                  <li class="dropdown-item dropend custom-16px"> 
+                    <a href="other_de.html" class="dropdown-item">ANDERE</a>
+                   </li>
+                  
+                  
+              </ul>
 
+      </li>
+        <li class="nav-item fs-5 pe-3">
+          <a class="nav-link text-black custom-16px" href="about_de.html">ÜBER UNS</a>
         </li>
-          <li class="nav-item fs-4">
-            <a class="nav-link text-white px-4" href="#">Besuchen</a>
-          </li>
-          <li class="nav-item fs-4">
-            <a class="nav-link text-white px-4" href="#">Um</a>
-          </li>
-          <li class="nav-item fs-4">
-            <a class="nav-link text-white px-4" href="#">Kontakt</a>
-          </li>
-          
-        </ul>
-        
-        
-        
-      </div>
-    </div>
-       
-       
-        <ul class="d-flex">
-          <li class="mx-3 dropdown-item dropdown fs-4 mt-3 "><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" href="main_de.html"><img src="img/germany.png" alt="" width="24px" height="24px"></a>
-           
-            <ul class="dropdown-menu">
+        <li class="nav-item fs-5">
+          <a class="nav-link text-black custom-16px" href="contact_de.html">KONTAKT</a>
+        </li>
+        <li class="nav-item fs-4">
+          <li class="nav-item dropdown custom-16px ps-0 ps-lg-3">
+          <a class="nav-link text-black dropdown-item" aria-current="page" data-bs-toggle="dropdown" data-bs-auto-close="outside"  href="#">ÖFFNUNGSZEITEN</a>
+              <ul class="dropdown-menu">
+                 
+                  <li class="dropdown-item dropend disabled custom-16px">
+                    <a class="dropdown-item" href="#">MO-FR 7:00 - 17:00</a>
+                    <a href="#" class="dropdown-item">WOCHENENDE GESCHLOSSEN</a>
+                  </li>
 
-              <li class="dropdown-item"><a class="dropdown-item" href="main_dk.html"><img src="img/danish.png" alt="" width="24px" height="24px">Dansk</a></li>
-            <li class="dropdown-item"><a class="dropdown-item" href="index.html"><img src="img/english.png" alt="" width="24px" height="24px">English</a></li>
-            <li class="dropdown-item"><a class="dropdown-item" href="main_de.html"><img src="img/germany.png" alt="" width="24px" height="24px">Deutsch</a></li>
-            </ul>
-           
-          </li>
-          <li class="mx-3 dropdown-item fs-4 mt-3 "><a class="btn text-white navy-background" href="">Tickets kaufen!</a></li>
-           </ul>
+              </ul>
+
+      </li>
+        </li>
+        
+      </ul>
       
-        
+      
+      
+    </div>
+  </div>
+ 
 
-      </nav>
+ 
+
+  <ul class="d-flex align-items-center">
+    <li class="mx-0 mx-lg-3 dropdown-item dropdown fs-4 mt-3 "><a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"data-bs-auto-close="outside" href="main_de.html"><img src="img/germany.png" alt="" width="24px" height="24px"></a>
+      
+     
+      <ul class="dropdown-menu">
+
+        <li class="dropdown-item custom-16px"><a class="dropdown-item" href="main_dk.html"><img src="img/danish.png" alt="" width="24px" height="24px"> DANSK</a></li>
+        <li class="dropdown-item custom-16px"><a class="dropdown-item" href="index.html"><img src="img/english.png" alt="" width="24px" height="24px"> ENGLISH</a></li>
+        <li class="dropdown-item custom-16px"><a class="dropdown-item" href="main_de.html"><img src="img/germany.png" alt="" width="24px" height="24px"> DEUTSCH</a></li>
+      </ul>
+    </li>
+
+    <li class="mx-3 dropdown-item custom-16px mt-3 "><a class="btn custom-button" href="ticket_single_de.html">TICKETS KAUFEN</a></li>
+    </ul>
+ 
+
+  
+   
+</nav>
+
+<!-- NAV ENDS HERE -->
 
 
-      <!-- MAIN STARTS HERE -->
 
-<div class="container">
+<!-- MAIN STARTS HERE -->
+
+<div class="container py-5">
+  <div class="row">
+    <h5 class="text-start fs-4 fw-lighter">WILLKOMMEN IM MUSEUM FÜR</h5>
+    <div class="col">
+
+      <div>
+        <h1 class="display-1 fw-bold">MODERNE KÜNSTE <br> HANDWERK <br> & DESIGN</h1>
+      </div>
+
+    </div>
+    
+    <div class="col">
+
+      <div>
+        <p class="fs-4 d-none d-md-block padding-top text-end text-uppercase">Blickwinkel seit '88 erhöhen: Wo moderne Kunst auf die Leinwand der Natur trifft. Ruhe, von dänischen Meistern in jeder Installation geformt.</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="container border-bottom border-3 border-black pb-5">
   <div class="row">
     <div class="col">
+      <div>
+        <img class="border border-5 border-black" src="img/hero.gif" alt="" width="100%">
+      </div>
+    </div>
+  </div>
+</div>
 
-      <div class="pt-5">
-        <h1 class="lato">MODERNE KUNST, HANDWERK <br> & DESIGN</h1>
-        
+
+<!-- MAIN ENDS HERE -->
+ 
+
+
+<!-- Current Exhibitions starts HERE -->
+
+<div class="container padding-top padding-bottom border-bottom border-3 border-black">
+  <h1 class="mb-5 text-uppercase">Aktuelle Ausstellungen</h1>
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row flex-column flex-lg-row">
+          <div class="col">
+
+            <h1>NANNA DITZEL</h1>
+            <h2>DESIGN AUF NEUEM NIVEAU</h2>
+
+            <p class="fs-5 pt-2">Nanna Ditzel ist eine der bedeutendsten dänischen Designerinnen des zwanzigsten Jahrhunderts. Zum ersten Mal wird ihre Welt der Ideen und Inspirationen vollständig entfaltet, während Trapholt ihr Gesamtwerk in einer dicht sinnlichen Vielfalt von Möbeldesign, Textilien, Schmuck und immersiven Installationen präsentiert.</p>
+            <br>
+
+          </div>
+          <div class="col"><img src="img/card.jpeg" class="d-block w-100 custom-border2" alt="..."></div>
+
+         </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row flex-column flex-lg-row">
+          <div class="col">
+
+            <h1>DER SKULPTUREN <br>PARK</h1>
+
+            <p class="fs-5 pt-2">Architektur, Kunst und Natur verschmelzen im Skulpturenpark von Trapholt. In einer malerischen Lage mit Blick auf den Kolding Fjord bietet der Skulpturenpark von Trapholt eine atemberaubende Erweiterung Ihres Museumsbesuchs. Der Skulpturenpark präsentiert eine Sammlung monumentaler Werke, die direkt mit der umgebenden Architektur und Natur in Beziehung stehen.</p>
+
+          </div>
+          <div class="col"><img src="img/tree.jpeg" class="d-block w-100 custom-border2" alt="..."></div>
+
+         </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row flex-column flex-lg-row">
+          <div class="col">
+            <h1>RICHARD MORTENSEN</h1>
+            <h2>RAUM</h2>
+            <p class="fs-5 pt-2">Zu dieser Zeit war der abstrakte Künstler Richard Mortensen (1910–93) bereits stark am Zusammenspiel von Malerei und Architektur interessiert. Mortensen schlug vor, dass die Architekten des Museums, Boye Lundgaard und Bente Aude, einen Raum entwerfen sollten, der der Kunst von Richard Mortensen gewidmet ist.</p>
+
+          </div>
+          <div class="col pt-4 pt-md-0"><img src="img/room.png" class="d-block w-100 custom-border2" alt="..."></div>
+
+         </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row flex-column flex-lg-row">
+          <div class="col">
+            <h1>IN TON <br> UND PAPIER</h1>
+
+            <p class="pt-2 fs-5">Wenn Sie durch den Hauptgang des Museums spazieren, finden Sie sich umgeben von großen, nachdenklich stimmenden Werken auf Papier und expressiven Keramikskulpturen von zwei international renommierten Künstlern wieder: dem Dänen Michael Kvium (*1955) und dem Norweger Kjell Erik Killi-Olsen (*1952).</p>
+          </div>
+          <div class="col pt-4 pt-md-0"><img src="img/clay.png" class="d-block w-100 custom-border2" alt="..."></div>
+
+         </div>
       </div>
 
+      <div class="carousel-item">
+        <div class="row flex-column flex-lg-row">
+          <div class="col">
+            <h1>ARNE JACOBSEN</h1>
+            <h2>SOMMERHAUS</h2>
+
+            <p class="pt-2 fs-5">Aber nur wenige wissen, dass der dänische Architekt und Designer auch ein modulares Sommerhaus entworfen hat. Bekannt als Kubeflex, dreht sich das Design um würfelförmige Module, die nach Bedarf kombiniert werden können und es dem Haus ermöglichen, seine Gestaltung und Größe nach Bedarf zu ändern.</p>
+          </div>
+          <div class="col pt-4 pt-md-0"><img src="img/arne.png" class="d-block w-100 custom-border2" alt="..."></div>
+
+         </div>
+      </div>
 
     </div>
+
+  </div>
+</div>
+
+
+<!-- Current Exhibitions ends HERE -->
+
+
+
+<!-- Future exhibitions starts here -->
+
+<div class="container padding-bottom padding-top mt-3 border-bottom border-3 border-black">
+
+  <div class="container mt-5">
+
+    <h1 class="text-dark fw-bolder mb-4 text-uppercase">Zukünftige Ausstellungen</h1>
     
+    <div class="row d-flex align-items-center justify-content-center">
+    
+      <div class="col d-flex justify-content-center pt-5 ">
+    
+        <div class="" style="width: 39rem;">
+          <a href="other_de.html"> <img src="img/mariatorp.webp" class="card-img-top custom-border d-none d-md-block mb-4"></a>
+          <div class="card-body">
+            <p class="text fs-6">28.09.2023-11.08.2024</p>
+            <h5 class="card-title">MARIA TORP</h5>
+            <p class="card-text">Ein Muster formen</p>
+            <img src="img/mariatorp.webp"  class="card-img-top pb-4 d-block d-md-none">
+            <a href="other_de.html" class="btn custom-button-4">MEHR LESEN</a>
+          </div>
+        </div>
+    
+      </div>
+      <div class="col d-flex justify-content-center pt-5">
+    
+        <div class="" style="width: 39rem;">
+          <a href="other_de.html"><img src="img/giotto.webp" class="card-img-top custom-border d-none d-md-block mb-4"></a>
+          <div class="card-body">
+            <p class="text fs-6">23.03.2023 - 30.12.2023</p>
+            <h5 class="card-title text-uppercase">Michael Kvium und Kjell Erik Killi</h5>
+            <p class="card-text">Ende der Zukunft</p>
+            <img src="img/giotto.webp" class="card-img-top d-block d-md-none pb-4">
+            <a href="other_de.html" class="btn custom-button-4">MEHR LESEN</a>
+          </div>
+        </div>
+    
+      </div>
+
+      <div class="d-flex flex-row justify-content-end mt-5">
+
+        <img class="me-3" src="img/left-arrow.png" alt="" height="30px" width="30px">
+        <img class="" src="img/right-arrow (1).png" alt="" height="30px" width="30px">
+
+      </div>
+    
+    </div>
+  </div>
+</div>
+
+
+  
+
+<!-- Future exhibitions ends here -->
+
+
+
+<!-- Events starts here -->
+<div class="container padding-top padding-bottom">
+  <h1 class="mb-5 text-uppercase">Veranstaltungen</h1>
+
+  <div class="row flex-column flex-lg-row">
+    <div class="col"><img src="img/shop.png" class="d-block w-100 mb-3 custom-border2">
+    </div>
     <div class="col">
+      <h6 class="ms-md-3">01.12.2023 - 15.01.2024</h6>
+      <h1 class="ms-md-3 text-uppercase">Weihnachten im Trapholt</h1>
+      <p class="text-end">1/6</p>
+      <p class=" pt-3 ms-md-3 ">Tauchen Sie ein in den Geist der Jahreszeit auf der bezaubernden Weihnachtsausstellung im Trapholt Museum, wo die Hallen mit der Magie der Feiertagstraditionen zum Leben erweckt werden. Wandern Sie durch kunstvoll geschmückte Galerien, die jeweils eine vielfältige Sammlung von weihnachtlichen Meisterwerken aus verschiedenen Epochen und Stilen präsentieren. Vom klassischen Krippenspiel bis zu zeitgenössischen Interpretationen lädt das Museum die Besucher ein, sich in einem festlichen Teppich aus Farben, Emotionen und Kreativität zu vertiefen. In diesem Jahr, anlässlich des Weihnachtsjubiläums des Museums, sind Besucher eingeladen, sich an der Freude, der Kunstfertigkeit und dem Gemeinschaftsgeist zu beteiligen, die dieses magische Weihnachtsfest im Trapholt definieren." </p>
 
-      <div class="pt-5">
-        <p class="lato fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus distinctio, iusto maiores nihil soluta? Expedita aperiam, beatae, voluptatem commodi error, exercitationem minima in explicabo earum harum tempore nisi! Cum?</p>
+      <div class="d-flex flex-row justify-content-end mt-5">
+        <a href=""><img class=" me-3" src="img/left-arrow.png" alt="" height="30px" width="30px"> </a>
+        <a href=""><img class="" src="img/right-arrow (1).png" alt="" height="30px" width="30px"></a>
       </div>
 
     </div>
+    
   </div>
 </div>
-<div class="row">
-  <div class="col">
-    <div class="bg-primary marginstart300">
-      <h1 class="text-white text-center margin200">IMAGE PLACEHOLDER</h1>
+
+<!-- Events ends here   -->
+
+
+
+
+
+
+
+<!-- Subscribe to our newsletter -->
+
+<div class="container-fluid gray border-top border-bottom border-3 border-black my-5">
+  <div class="container py-5">
+
+    <h1 class="fw-bold text-center">#TRAPHOLTMUSEUM</h1>
+    <br>
+    <p class="text-center">
+      <i class="fa-brands fs-1 fa-facebook me-2"></i>
+      <i class="fa-brands fs-1 fa-instagram me-2"></i>
+      <i class="fa-brands fs-1 fa-twitter me-2"></i>
+      <i class="fa-brands fs-1 fa-linkedin me-2"></i>
+    </p>
+  
+    <br><br>
+  
+    <div class="row align-items-baseline">
+  
+      <div class="col text-lg-end">
+        <h1 class="fs-2 text-uppercase">Bleiben Sie auf dem Laufenden mit #TRAPHOLTMUSEUM</h1>
+        <p class="fs-6">Erhalten Sie monatliche Neuigkeiten und Informationen.</p>
+      </div>
+      
+      <div class="col">
+        <div class="mb-3 d-flex flex-row justify-content-start">
+          <input type="email" class="custom-email-input" id="exampleFormControlInput1" placeholder="Geben Sie hier Ihre E-Mail-Adresse ein">
+          <button class="custom-button ms-2">ANMELDEN</button>
+        </div>
+        <p class="fs-6">Durch Klicken auf Anmelden bestätigen Sie, dass Sie unseren <br> Nutzungsbedingungen zustimmen.</p>
+      </div>
     </div>
   </div>
 </div>
-    
 
+
+  <!-- HERE ENDS NEWSLETTER -->
+
+
+<!-- Cafe starts here-->
+
+
+<div class="container padding-bottom padding-top mt-5">
+  
+  <div class="row flex-column flex-lg-row">
+    <div class="col-12 col-md-6">
+      <h1>CAFÉ GUSTAV LIND <br> TRAPHOLT</h1>
+    </div>
+
+    <div class="col-12 col-md-6">
+      <p class="fs-5">Das Betreten des Cafés fühlt sich an wie eine natürliche Erweiterung Ihrer Trapholt-Erfahrung. Die Speisekarte spiegelt wider, was gerade Saison hat, und Sie können sich immer auf ein angenehmes kulinarisches Erlebnis verlassen.
+        Wir berücksichtigen auch die kleinen Momente, in denen Sie einfach ein Glas Wein oder eine Tasse Kaffee genießen möchten. <br>
+      </p>
+      <div class="btn custom-button mt-2"><a class="dropdown-item" href="cafe_de.html">JETZT BUCHEN</a></div>
+      <div class="btn custom-button-2 mt-2"><a class="dropdown-item" href="cafe_de.html">SPEISEKARTE ANSEHEN</a></div>
+    </div>
+    <a href="cafe_de.html"><img class="mt-4 custom-border" src="img/cafe.jpg" width="100%" alt=""></a>
+  </div>
+</div>
+
+
+
+<!-- Cafe ends here -->
+
+
+ 
+
+
+ <!-- FOOTER STARTS HERE -->
+ <div class="container-fluid justify-content-center align-items-center border-top border-3 border-black gray">
+
+  <div class="container py-5">
+    <div class="row border-bottom border-1 border-black flex-column flex-md-row">
     
-    
+      <div class="col">
+        <img src="img/love.png" width="150px">
+  
+        <h5 class="mt-5">ADRESSE:</h5>
+          <p>Æblehaven 23, <br>
+          DK-6000 Kolding</p>
+         <h5>KONTAKT:</h5>
+         <p>+45 76 30 05 30 <br>
+          kunstmuseum@trapholt.dk</p>
+          <p class="">
+          <i class="fa-brands fs-2 fa-facebook"></i>
+          <i class="fa-brands fs-2 fa-instagram"></i>
+          <i class="fa-brands fs-2 fa-twitter"></i>
+          <i class="fa-brands fs-2 fa-linkedin"></i>
+          </p>
+
+          <div class="my-3"><img src="img/badges.png" alt="" width="30%"></div>
+      </div>
+
+      <div class="col">
+      <div class="row flex-column flex-md-row">
+
+          <div class="col text-start text-md-end mb-5 mb-md-0">
+          <p>ÖFFNUNGSZEITEN</p>
+          
+          <h6>Dienstag 10 - 17</h6>
+          <h6>Mittwoch 10 - 17</h6>
+          <h6>Donnerstag 10 - 17</h6>
+          <h6>Freitag 10 - 17</h6>
+          <h6>Samstag 10 - 17</h6>
+          <h6>Sonntag 10 - 17</h6>
+          <h6>Montag - Geschlossen</h6>
+          </div>
+
+          <div class="col text-start text-md-end">
+          <a href="about_de.html" class="text-black dropdown-item"><p>ÜBER UNS</p></a>
+          <a href="contact_de.html" class="text-black dropdown-item"><p>KONTAKT</p></a>
+          <a href="current_de.html" class="text-black dropdown-item"><p>AKTUELLE <br> AUSSTELLUNGEN</p></a>
+          <a href="other_de.html" class="text-black dropdown-item"><p>ANDERE <br> AUSSTELLUNGEN</p></a>
+          <a href="cafe_de.html" class="text-black dropdown-item"><p>CAFÉ</p></a>
+          <a href="ticket_single_de.html" class="text-black dropdown-item"><p>PREISE</p></a>
+          </div>
+      </div>
+  </div>
+
+</div>
+
+
+<div class="row flex-column flex-md-row pt-5">
+  <div class="col ">© 2023 Trapholt. Alle Rechte vorbehalten.</div>
+ 
+  <div class="col">
+    <div class="row justify-content-end">
+      <div class="col text-start text-lg-end">Datenschutzrichtlinie</div>
+      <div class="col text-start text-lg-end ">Nutzungsbedingungen</div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+
+<!-- FOOTER ENDS HERE -->
+
+
+  
+
+
+
+ 
+
+
+
+
 
 
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+      
 </body>
 </html>
